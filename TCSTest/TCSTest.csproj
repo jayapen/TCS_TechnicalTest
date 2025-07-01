@@ -23,4 +23,10 @@
     </ContainerEnvironmentVariable>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Entities\" />
+    <Folder Include="Models\DTO\" />
+    <Folder Include="Swagger\" />
+  </ItemGroup>
+
 </Project>
