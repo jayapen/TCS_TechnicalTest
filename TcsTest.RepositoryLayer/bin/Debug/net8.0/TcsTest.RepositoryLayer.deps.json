@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TcsTest.RepositoryLayer/1.0.0": {
+        "dependencies": {
+          "TcsTest.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "TcsTest.RepositoryLayer.dll": {}
+        }
+      },
+      "TcsTest.Utilities/1.0.0": {
+        "runtime": {
+          "TcsTest.Utilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TcsTest.RepositoryLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TcsTest.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
