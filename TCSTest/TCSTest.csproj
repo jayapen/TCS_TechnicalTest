@@ -23,4 +23,9 @@
     </ContainerEnvironmentVariable>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TCSTest.ServiceLayer\TCSTest.ServiceLayer.csproj" />
+    <ProjectReference Include="..\TcsTest.Utilities\TcsTest.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

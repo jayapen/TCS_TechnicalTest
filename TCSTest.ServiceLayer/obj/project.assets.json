@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "TcsTest.RepositoryLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TcsTest.Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TcsTest.RepositoryLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TcsTest.RepositoryLayer.dll": {}
+        }
+      },
+      "TcsTest.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TcsTest.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TcsTest.Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TcsTest.RepositoryLayer/1.0.0": {
+      "type": "project",
+      "path": "../TcsTest.RepositoryLayer/TcsTest.RepositoryLayer.csproj",
+      "msbuildProject": "../TcsTest.RepositoryLayer/TcsTest.RepositoryLayer.csproj"
+    },
+    "TcsTest.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../TcsTest.Utilities/TcsTest.Utilities.csproj",
+      "msbuildProject": "../TcsTest.Utilities/TcsTest.Utilities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "TcsTest.RepositoryLayer >= 1.0.0",
+      "TcsTest.Utilities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\abind\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\abind\\source\\repos\\TCS_TechnicalTestNew\\TCSTest.ServiceLayer\\TCSTest.ServiceLayer.csproj",
+      "projectName": "TCSTest.ServiceLayer",
+      "projectPath": "C:\\Users\\abind\\source\\repos\\TCS_TechnicalTestNew\\TCSTest.ServiceLayer\\TCSTest.ServiceLayer.csproj",
+      "packagesPath": "C:\\Users\\abind\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abind\\source\\repos\\TCS_TechnicalTestNew\\TCSTest.ServiceLayer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\abind\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\abind\\source\\repos\\TCS_TechnicalTestNew\\TcsTest.RepositoryLayer\\TcsTest.RepositoryLayer.csproj": {
+              "projectPath": "C:\\Users\\abind\\source\\repos\\TCS_TechnicalTestNew\\TcsTest.RepositoryLayer\\TcsTest.RepositoryLayer.csproj"
+            },
+            "C:\\Users\\abind\\source\\repos\\TCS_TechnicalTestNew\\TcsTest.Utilities\\TcsTest.Utilities.csproj": {
+              "projectPath": "C:\\Users\\abind\\source\\repos\\TCS_TechnicalTestNew\\TcsTest.Utilities\\TcsTest.Utilities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
