@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TCSTest/.vs
+/TCSTest/obj
+/TvChannelScheduler.Services
+/TVScheduler.Services
+/TCSTest/bin/Debug/net8.0
